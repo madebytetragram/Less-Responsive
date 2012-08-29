@@ -67,13 +67,16 @@ a.active { }
 .container { width:980px; margin:0 auto; }
 
 
-/* ===== Site ===== */
-header { margin-bottom: 20px; border-bottom:2px solid #f1f1f1;}
+/* ===== Header ===== */
+header { margin-bottom: 30px; border-bottom:2px solid #f1f1f1; min-height: 115px; }
 
+/* ===== Footer ===== */
+footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
+footer img { display:block; margin:0 auto; width:82px;}
 
 /* ===== Project Grid ===== */
 .project_box { display:block; }
 .project_box img { display:block; padding-bottom:10px; }
-.project_box h1 { font-size:13px; padding-bottom:5px; font-weight:bold; margin-bottom:10px; }
+.project_box h1 { font-size:13px; padding-bottom:5px; font-weight:bold; margin:5px 0 10px 0; }
 
 
