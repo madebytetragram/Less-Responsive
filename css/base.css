@@ -75,8 +75,13 @@ footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
 footer img { display:block; margin:0 auto; width:82px;}
 
 /* ===== Project Grid ===== */
-.project_box { display:block; }
-.project_box img { display:block; padding-bottom:10px; }
-.project_box h1 { font-size:13px; padding-bottom:5px; font-weight:bold; margin:5px 0 10px 0; }
+.project_box { position: relative; z-index:1; margin-bottom:40px; }
+.project_box img { display:block; position: relative; z-index:2;  }
+.project_box .project_info { position: absolute; z-index:5; background: url("../images/global/opc_bg.png")repeat; top:0px; right:0px; bottom:0px; left:0px; }
+.project_info h1 { margin:15px 0 0 15px; color:#fff; }
+
+
+.fade { opacity: 0; transition: opacity .25s ease-in-out; -moz-transition: opacity .25s ease-in-out; -webkit-transition: opacity .25s ease-in-out; }
+.fade:hover { opacity: 1; }
 
 
