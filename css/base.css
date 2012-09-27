@@ -27,7 +27,7 @@ audio:not([controls]) { display: none; } [hidden] { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: sans-serif; color: #252525; }
-body { margin: 0; font-size: 1em; line-height: 1.4; background:#f9f9f9;}
+body { margin: 0; font-size: 1em; line-height: 1.4; background: #fff;}
 
 /* ===== Fixes ===== */
 .clearfix { clear:both; }
@@ -78,21 +78,11 @@ footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
 footer img { display:block; margin:0 auto; width:82px;}
 
 /* ===== Project Grid ===== */
-.project_wrap { 
-	padding:40px 0px 20px 0; 
-	border:1px solid #ddd; 
-	border-left:none;  
-	border-right:none; 
-	border-top:none;
-	background:#fff;
-	-webkit-box-shadow: 0 8px 6px -6px #ddd;
-	   -moz-box-shadow: 0 8px 6px -6px #ddd;
-	        box-shadow: 0 8px 6px -6px #ddd; 
-}
 .project_box { position: relative; z-index:1; margin-bottom:40px; }
 .project_box img { display:block; position: relative; z-index:2;  }
 .project_box .project_info { position: absolute; z-index:5; background: url("../images/global/opc_bg.png")repeat; top:0px; right:0px; bottom:0px; left:0px; }
-.project_info h1 { margin:25px 0 0 25px; color:#fff; font-size:17px; }
+.project_info h1 { margin:35px 0 0 35px; color:#fff; font-size:19px; }
+.project_info span.sub_title { font-size:13px; font-family: Times,sans-serif; font-style: italic; color:#fff; margin-left:35px; }
 
 
 .fade { opacity: 0; transition: opacity .25s ease-in-out; -moz-transition: opacity .25s ease-in-out; -webkit-transition: opacity .25s ease-in-out; }
