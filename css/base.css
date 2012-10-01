@@ -27,7 +27,7 @@ audio:not([controls]) { display: none; } [hidden] { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: sans-serif; color: #252525; }
-body { margin: 0; font-size: 1em; line-height: 1.4; background: #fff;}
+body { margin: 0; font-size: 12px; line-height: 18px; background: #fff; }
 
 /* ===== Fixes ===== */
 .clearfix { clear:both; }
@@ -44,13 +44,17 @@ img { width:100%;}
 /* ===== Colors ===== */
 .bg { background:#252525;}
 
+/* ===== Fixes ===== */
+
+img { max-width:100%; display:block; margin:0 auto; }
+
 
 /* ===== Typograhpy ===== */
 
 .wf-loading { visibility: hidden !important; }
 
 /* HGroups */
-h1,h2,h3,h4,h5 { font-weight:normal; }
+h1,h2,h3,h4,h5 { font-weight:normal; color:#252525; }
 h1 { font-size:29px; }
 h2 { font-size:27px; }
 h3 { font-size:25px; }
@@ -78,12 +82,28 @@ footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
 footer img { display:block; margin:0 auto; width:82px;}
 
 /* ===== Project Grid ===== */
+.project_box_wrap { padding-top:25px; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; margin-bottom:30px;  }
 .project_box { position: relative; z-index:1; margin-bottom:40px; }
 .project_box img { display:block; position: relative; z-index:2;  }
 .project_box .project_info { position: absolute; z-index:5; background: url("../images/global/opc_bg.png")repeat; top:0px; right:0px; bottom:0px; left:0px; }
 .project_info h1 { margin:35px 0 0 35px; color:#fff; font-size:19px; }
 .project_info span.sub_title { font-size:13px; font-family: Times,sans-serif; font-style: italic; color:#fff; margin-left:35px; }
 
+/* ===== Project ===== */
+.project_wrap { padding-top:25px; }
+
+.slides { margin-bottom:20px; display: block; }
+.slides img { width: 100%; }
+
+ul.pager { margin-bottom:20px; }
+ul.pager a { font-size: 51px; color:#e6e6e6; }
+ul.pager a.activeSlide { color:#252525; }
+
+.info { width:100%; border-top:2px solid #e6e6e6; padding-top:25px; }
+.info h1 { font-size: 21px; margin-bottom:25px; }
+
+
+/* ===== CSS3 ===== */
 
 .fade { opacity: 0; transition: opacity .25s ease-in-out; -moz-transition: opacity .25s ease-in-out; -webkit-transition: opacity .25s ease-in-out; }
 .fade:hover { opacity: 1; }
