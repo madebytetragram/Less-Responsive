@@ -66,9 +66,10 @@ h6 { font-size:19px; }
 p { font-size:12px; line-height:18px; margin-bottom:15px; }
 
 /* Links */
-a { }
-a:hover { }
-a.active { }
+
+a.view { border:none; padding:10px; background: #252525; color:#fff; text-align: center; color:#fff; margin:20px 0; display: block; }
+a.view:hover { background:#111; }
+
 
 /* ===== Containers ===== */
 .container { width:980px; margin:0 auto; }
@@ -102,6 +103,7 @@ ul.pager a.activeSlide { color:#252525; }
 .info { width:100%; border-top:2px solid #e6e6e6; padding-top:25px; }
 .info h1 { font-size: 21px; margin-bottom:25px; }
 
+/* ===== Buttons ===== */
 
 /* ===== CSS3 ===== */
 
