@@ -76,22 +76,27 @@ a.view:hover { background:#111; }
 
 
 /* ===== Header ===== */
-header { margin-bottom: 30px; min-height: 115px; }
+header { margin-bottom: 30px; min-height: 85px; background: #f8f8f8; border-bottom:1px solid #eee; }
+
+ul.main_nav { display: block; float:right;}
+ul.main_nav li { float:left; margin-right:20px; }
+ul.main_nav li a { color:#252525; text-transform: uppercase; font-size: 13px; }
+ul.main_nav li a:hover { color:#26b555; }
 
 /* ===== Footer ===== */
-footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
+/*footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
 footer img { display:block; margin:0 auto; width:82px;}
-
+*/
 /* ===== Project Grid ===== */
-.project_box_wrap { padding-top:25px; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; margin-bottom:30px;  }
+/*.project_box_wrap { padding-top:25px; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; margin-bottom:30px;  }
 .project_box { position: relative; z-index:1; margin-bottom:40px; }
 .project_box img { display:block; position: relative; z-index:2;  }
 .project_box .project_info { position: absolute; z-index:5; background: url("../images/global/opc_bg.png")repeat; top:0px; right:0px; bottom:0px; left:0px; }
 .project_info h1 { margin:35px 0 0 35px; color:#fff; font-size:19px; }
-.project_info span.sub_title { font-size:13px; font-family: Times,sans-serif; font-style: italic; color:#fff; margin-left:35px; }
+.project_info span.sub_title { font-size:13px; font-family: Times,sans-serif; font-style: italic; color:#fff; margin-left:35px; }*/
 
 /* ===== Project ===== */
-.project_wrap { padding-top:25px; }
+/*.project_wrap { padding-top:25px; }
 
 .slides { margin-bottom:20px; display: block; }
 .slides img { width: 100%; }
@@ -102,12 +107,12 @@ ul.pager a.activeSlide { color:#252525; }
 
 .info { width:100%; border-top:2px solid #e6e6e6; padding-top:25px; }
 .info h1 { font-size: 21px; margin-bottom:25px; }
-
+*/
 /* ===== Buttons ===== */
 
 /* ===== CSS3 ===== */
-
+/*
 .fade { opacity: 0; transition: opacity .25s ease-in-out; -moz-transition: opacity .25s ease-in-out; -webkit-transition: opacity .25s ease-in-out; }
-.fade:hover { opacity: 1; }
+.fade:hover { opacity: 1; }*/
 
 
