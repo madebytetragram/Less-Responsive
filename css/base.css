@@ -78,10 +78,20 @@ a.view:hover { background:#111; }
 /* ===== Header ===== */
 header { margin-bottom: 30px; min-height: 85px; background: #f8f8f8; border-bottom:1px solid #eee; }
 
-ul.main_nav { display: block; float:right;}
-ul.main_nav li { float:left; margin-right:20px; }
-ul.main_nav li a { color:#252525; text-transform: uppercase; font-size: 13px; }
+.logo { display: block; float:left; margin-top:32px; }
+.logo img { max-width:146px; }
+
+ul.main_nav { display: block; float:right; margin-top:35px; }
+ul.main_nav li { float:left; margin-right:40px; }
+ul.main_nav li a { color:#666; font-size: 13px; }
 ul.main_nav li a:hover { color:#26b555; }
+
+
+/* ===== Project Page ===== */
+
+.container { display: block; margin:20px 0;}
+
+
 
 /* ===== Footer ===== */
 /*footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
