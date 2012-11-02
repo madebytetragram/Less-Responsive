@@ -56,7 +56,7 @@
 
 
 /***** Tablet (Smaller than 959px) *****/
-/*@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
 
 .row 								{ margin:0 auto; width:768px; overflow:hidden; }
 .row .row 							{ margin:0 -14px 0 -14px; width:auto; display:inline-block; }
@@ -76,12 +76,12 @@
 
 
 	
-}*/
+}
 
 
 
 /***** Phone (portrait 300px) *****/
-/*@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
 .row 								{ margin:0 auto; width:300px; overflow:hidden; }
 .row .row 							{ margin:0; width:auto; display:inline-block; }
@@ -90,12 +90,12 @@
 .grid_7,.grid_8,.grid_9,.grid_10,.grid_11, .grid_12	 { width:300px; margin:10px 0 0 0; overflow:hidden; float:left; display:inline; }
 			
 }	 
-*/
+
 
 
 
 /***** Phone (landscape 420px) *****/
-/*@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
 .row 								{ margin:0 auto; width:456px; overflow:hidden; }
 .row .row 							{ margin:0; width:auto; display:inline-block; }
@@ -106,7 +106,7 @@
 { width:456px; margin:10px 0 0 0; overflow:hidden; float:left; display:inline; }
 
 
-}*/
+}
 
 
 

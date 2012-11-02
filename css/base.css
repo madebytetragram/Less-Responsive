@@ -86,17 +86,42 @@ ul.main_nav li { float:left; margin-right:40px; }
 ul.main_nav li a { color:#666; font-size: 13px; }
 ul.main_nav li a:hover { color:#26b555; }
 
+.menu { display: none; }
+ul.menu_nav { display: block; float:left;  }
+ul.menu_nav li { float:left; margin-right:20px; }
+ul.menu_nav li a { color:#666; font-size: 13px; display: block; padding:8px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+ul.menu_nav li a:hover { color:#26b555; background: #f1f1f1; }
+
 
 /* ===== Project Page ===== */
 
 .container { display: block; margin:20px 0;}
 
+section.panel {
+	border-bottom: 1px solid #eee;
+/*    box-shadow: 0 8px 6px -7px rgba(0, 0, 0, 0.13);*/
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+}
 
+
+/* ===== Profile ===== */
+.profile { text-align: center; margin:50px 0;}
+.profile h3 { font-size: 27px; margin-bottom:20px; color:#26b555; }
+.profile p { font-size: 13px; line-height: 19px; margin-bottom:0px;}
 
 /* ===== Footer ===== */
-/*footer { margin-top: 30px; border-top:2px solid #f1f1f1; min-height: 115px; }
-footer img { display:block; margin:0 auto; width:82px;}
-*/
+
+footer { margin-top: 30px; border-top:1px solid #eee; min-height: 115px; }
+ul.farm { display: block; width:300px; margin:30px auto 0 auto; }
+ul.farm li { float:left; margin-right:10px; }
+ul.farm li:last-child { float:left; margin-right:0px; }
+ul.farm li a { color:#666; font-size: 12px; }
+ul.farm li a:hover { color:#26b555; }
+
+
+
 /* ===== Project Grid ===== */
 /*.project_box_wrap { padding-top:25px; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; margin-bottom:30px;  }
 .project_box { position: relative; z-index:1; margin-bottom:40px; }
