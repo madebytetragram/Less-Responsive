@@ -52,15 +52,17 @@ img { max-width:100%; display:block; margin:0 auto; }
 /* ===== Typograhpy ===== */
 
 .wf-loading { visibility: hidden !important; }
+.brandon { font-family: "brandon-grotesque",sans-serif; font-style: normal; font-weight: 500; }
+.brandon-bold { font-family: "brandon-grotesque",sans-serif; font-style: normal; font-weight: 700; }
 
 /* HGroups */
-h1,h2,h3,h4,h5 { font-weight:normal; color:#252525; }
-h1 { font-size:29px; }
-h2 { font-size:27px; }
-h3 { font-size:25px; }
-h4 { font-size:23px; }
-h5 { font-size:21px; }
-h6 { font-size:19px; }
+h1,h2,h3,h4,h5 { font-weight:normal; color:#252525; font-family: "brandon-grotesque",sans-serif; font-style: normal; font-weight: 700; }
+h1 { font-size:21px; }
+h2 { font-size:19px; }
+h3 { font-size:17px; }
+h4 { font-size:15px; }
+h5 { font-size:13px; }
+h6 { font-size:11px; }
 
 /* Paragraphs */
 p { font-size:12px; line-height:18px; margin-bottom:15px; }
@@ -76,12 +78,12 @@ a.view:hover { background:#111; }
 
 
 /* ===== Header ===== */
-header { margin-bottom: 30px; min-height: 85px; background: #f8f8f8; border-bottom:1px solid #eee; }
+header { margin-bottom: 30px; min-height: 65px; background: #f8f8f8; border-bottom:1px solid #eee; }
 
-.logo { display: block; float:left; margin-top:32px; }
+.logo { display: block; float:left; margin-top:22px; }
 .logo img { max-width:146px; }
 
-ul.main_nav { display: block; float:right; margin-top:35px; }
+ul.main_nav { display: block; float:right; margin-top:25px; }
 ul.main_nav li { float:left; margin-right:40px; }
 ul.main_nav li a { color:#666; font-size: 13px; }
 ul.main_nav li a:hover { color:#26b555; }
@@ -93,17 +95,12 @@ ul.menu_nav li a { color:#666; font-size: 13px; display: block; padding:8px; -we
 ul.menu_nav li a:hover { color:#26b555; background: #f1f1f1; }
 
 
-/* ===== Project Page ===== */
+/* ================================================== Project Page  */
 
 .container { display: block; margin:20px 0;}
 
-section.panel {
-	border-bottom: 1px solid #eee;
-/*    box-shadow: 0 8px 6px -7px rgba(0, 0, 0, 0.13);*/
-    display: block;
-    margin-bottom: 15px;
-    padding-bottom: 25px;
-}
+section.project_info { display: block; margin:20px 0; }
+section.project_info h1 { text-transform: uppercase; margin:20px 0; text-align: center; }
 
 
 /* ===== Profile ===== */
