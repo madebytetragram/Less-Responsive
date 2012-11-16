@@ -21,14 +21,12 @@ ul.main_nav li { float:left; margin-right:20px; }
 /***** Phone (portrait 300px) *****/
 @media only screen and (max-width: 767px) {
 
-header { margin-bottom: 5px; min-height: 85px; background: #f8f8f8; border-bottom:1px solid #eee; }
+header { margin-bottom: 5px; }
 
 .logo { margin-top:15px; }
 
 ul.main_nav { display: none; }
-.menu { display: block; border-bottom:1px solid #eee; padding-bottom:10px; }
-ul.farm { display: block; width:240px; margin:15px auto 0 auto; }
-ul.farm li { float:left; margin-right:10px; }
+
 
 }
 

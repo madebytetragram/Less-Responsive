@@ -75,10 +75,11 @@ a.view:hover { background:#111; }
 
 /* ===== Containers ===== */
 .container { width:980px; margin:0 auto; }
-
+.tg_wrapper { position: relative; top:85px; margin:0 auto; }
+.header_wrap { position: fixed; z-index: 999; left:0px; right: 0px; border-bottom:1px solid #eee; background: #fff; margin-bottom: 30px; min-height: 65px;  }
 
 /* ===== Header ===== */
-header { margin-bottom: 30px; min-height: 65px; border-bottom:1px solid #eee; }
+header { }
 
 .logo { display: block; float:left; margin-top:22px; }
 .logo img { max-width:146px; }
@@ -96,11 +97,11 @@ ul.menu_nav li a:hover { color:#26b555; background: #f1f1f1; }
 
 /* ================================================== Home  */
 .project_block { margin-bottom:20px; position: relative; }
-.project_block img { margin-bottom:20px; }
+.project_block img { margin-bottom:20px;  }
 .project_block span.project_title { text-align: center; display: block; margin-bottom:0px;  }
 .project_block span.project_title a { text-transform: uppercase; font-size: 15px; margin-bottom:5px; display: block; color:#252525; }
 .project_block span.project_title p { font-family: Georgia,Times,Serif; color:#888; margin-bottom: 10px; }
-.project_block span.bar { display: block; height: 1px; width:50px; background: #252525; margin:0 auto; }
+.project_block span.bar { display: block; height: 1px; width:50px; background: #fff; border-top:1px dotted #ddd; margin:0 auto; }
 
 
 /* ================================================== Project Page  */
